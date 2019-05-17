@@ -51,7 +51,7 @@ class CreateExport extends Command
      *
      * @var string
      */
-    protected $description = 'Use this command to create a new import. Your user ID can be found on the /profile page.';
+    protected $description = 'Use this command to create a new export. Your user ID can be found on the /profile page.';
 
     /**
      * The name and signature of the console command.
@@ -60,7 +60,7 @@ class CreateExport extends Command
      */
     protected $signature
         = 'firefly:create-export
-                            {--user= : The user ID that the import should import for.}
+                            {--user= : The user ID that the export should export for.}
                             {--token= : The user\'s access token.}
                             {--with_attachments : Include user\'s attachments?}
                             {--with_uploads : Include user\'s uploads?}';
